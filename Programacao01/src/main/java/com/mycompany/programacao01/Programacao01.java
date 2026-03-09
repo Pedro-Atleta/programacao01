@@ -22,7 +22,7 @@ public class Estudantes {
         nome = "Nobody";
     }
     
-    public int obterIdade(Date hoje) {
+    private int obterIdade(Date hoje) {
         int idade = 0;
         // Lógica de calculo de idade
         return idade;
