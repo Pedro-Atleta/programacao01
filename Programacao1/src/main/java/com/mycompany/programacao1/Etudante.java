@@ -11,15 +11,19 @@ import java.util.Date;
  * @author aluno
  */
 public class Etudante {
-    private String nome;
+    private String nomeAluno;
     private Date datanascimento;
     private String cpf;
     private char genero;
     private String matricula;
     private String email;
+    private String telefone;
+    private String anoIngresso;
+    private String semestreIngresso;
+    private String cituacao;
  
     public Etudante() {
-        nome = "Nobody";
+        nomeAluno = "Nobody";
     }
     
     private int obterIdade(Date hoje) {
@@ -29,11 +33,11 @@ public class Etudante {
     }
     
     public String getNome() {
-        return nome;
+        return nomeAluno;
     }
     
     public void setNome(String _nome) {
-        nome = _nome;
+        nomeAluno = _nome;
     }
     
     public Date getData() {
