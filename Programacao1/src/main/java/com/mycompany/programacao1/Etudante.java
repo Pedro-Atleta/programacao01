@@ -21,7 +21,7 @@ public class Etudante {
     private String anoIngresso;
     private String semestreIngresso;
     private String cituacao;
- 
+
     public Etudante() {
         nomeAluno = "Nobody";
     }
