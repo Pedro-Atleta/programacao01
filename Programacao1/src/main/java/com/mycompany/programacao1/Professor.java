@@ -20,4 +20,6 @@ public class Professor {
     private String regimeTrabalho;
     private String anoIngresso;
     private String formacao;
+    
+    
 }
