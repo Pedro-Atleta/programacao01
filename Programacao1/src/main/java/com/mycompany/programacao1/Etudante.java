@@ -89,7 +89,7 @@ public class Etudante {
         telefone = _telefone;
     }
     
-    public int getanoINgresso() {
+    public int getanoIngresso() {
         return anoIngresso;
     }
     
